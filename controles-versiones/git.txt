@@ -1,0 +1,30 @@
+Importante: Debe tener instalado git para poder ejecutar los comandos con éxito.
+
+Comandos en git:
+
+git config --global user.name "Tu Nombre"
+git config --global user.email "tu_correo@ejemplo.com"
+
+git init
+
+git status
+
+git add nombre_del_archivo.js
+
+git add .
+
+git commit -m "Mensaje descriptivo del cambio"
+
+git log
+
+git remote add origin URL_DEL_REPOSITORIO_REMOTO
+
+git push -u origin master
+
+git pull origin master
+
+git clone URL_DEL_REPOSITORIO_REMOTO
+
+git branch nombre-de-la-rama
+
+git checkout nombre-de-la-rama
